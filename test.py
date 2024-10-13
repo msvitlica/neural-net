@@ -25,4 +25,26 @@ bmi = weight / height ** 2
 
 print(f"hello world {bmi:.4f}")
 
+# def add_numbers(number1, number2):
+#     result = number1 + number2
+#     return result
 
+# # You can use the function like this:
+# sum = add_numbers(5, 3)
+
+# print(f"sum is {sum}")
+
+
+family = ["Sofija","Milan", "Rada","Filip"]
+
+print(family)
+
+for name in family:
+    print(f"hello world {name}")
+
+
+
+
+
+
+    
