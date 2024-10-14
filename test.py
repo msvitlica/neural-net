@@ -43,8 +43,20 @@ for name in family:
     print(f"hello world {name}")
 
 
+    # I want dictionary with keys name, age, height, weight, bmi
+
+person = {
+    "name": "John",
+    "age": 20,
+    "height": 1.75,
+    "weight": 70,
+    "bmi": 20.0
+}
+
+print(person)
+
+print(person["name"])
 
 
 
 
-    
