@@ -18,6 +18,10 @@ print(f"hello world {age} {name}")
 
 
 
+    
+
+
+
 height = 1.75
 weight = 70
 
