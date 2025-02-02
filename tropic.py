@@ -9,7 +9,7 @@ base_url = "https://eshop.tropic.ba/?product-page="
 products = []
 
 # Definišemo broj stranica (možete ga povećati prema potrebi)
-max_pages = 30
+max_pages = 1444
 
 for page in range(1, max_pages + 1):
     print(f"Scraping page {page}...")
@@ -39,7 +39,7 @@ for page in range(1, max_pages + 1):
             print(f"Error processing product: {e}")
 
 # Sačuvaj u JSON fajl
-with open("tropic_products.json", "w", encoding="utf-8") as f:
+with open("tropic_products_1.json", "w", encoding="utf-8") as f:
     json.dump(products, f, ensure_ascii=False, indent=4)
 
 print(f"Scraping completed! {len(products)} products saved.")
